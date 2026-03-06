@@ -17,6 +17,17 @@ const lookupDisclaimer = document.getElementById('lookup-disclaimer');
 
 const backToTop = document.getElementById('back-to-top');
 
+// ---------- Responsive Placeholder ----------
+function updatePlaceholder() {
+    if (window.innerWidth <= 768) {
+        searchInput.placeholder = '업종코드 또는 업종명 입력';
+    } else {
+        searchInput.placeholder = '업종코드(예: 722000) 또는 업종명(예: 소프트웨어)을 입력하세요';
+    }
+}
+updatePlaceholder();
+window.addEventListener('resize', updatePlaceholder);
+
 // ---------- Navigation ----------
 let lastScroll = 0;
 
