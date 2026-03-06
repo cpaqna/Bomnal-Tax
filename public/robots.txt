@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://bomnal-tax.vercel.app/sitemap.xml
