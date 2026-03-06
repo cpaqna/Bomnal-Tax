@@ -157,6 +157,12 @@ ol {
   line-height: 1.8;
 }
 
+.section-subtitle {
+  font-size: var(--font-size-2xl);
+  font-weight: 600;
+  color: var(--gray-500);
+}
+
 /* ---------- Navbar ---------- */
 .navbar {
   position: fixed;
@@ -753,6 +759,7 @@ ol {
   font-size: var(--font-size-base);
   font-weight: 700;
   color: var(--navy);
+  text-align: right;
 }
 
 .info-cell-unit {
