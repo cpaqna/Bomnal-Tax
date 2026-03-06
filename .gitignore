@@ -1,0 +1,16 @@
+node_modules
+dist
+.vercel
+*.log
+.DS_Store
+Thumbs.db
+
+# 개인 데이터 파일 (원본 엑셀 등)
+*.xlsx
+*.xls
+
+# 크롭 스크립트 및 원본 이미지
+_crop-icon.js
+_read-excel.js
+세무회계 봄날 로고.png
+세무회계 봄날 로고만.jpg

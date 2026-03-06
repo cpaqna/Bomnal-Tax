@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>세무회계 봄날 | 사업의 시작부터 절세의 완성까지</title>
+  <meta name="description" content="세무회계컨설팅 봄날 - 대형 회계법인 출신 회계사가 제공하는 고품질 세무·회계 서비스. 업종별 세액공제 조회, 기장대리, 세무조정, 세무자문 등" />
+  <link rel="icon" type="image/png" href="/logo.png" />
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav id="navbar" class="navbar">
+    <div class="nav-container">
+      <a href="#tax-lookup" class="nav-logo">
+        <img src="/logo-icon.png" alt="봄날" class="logo-img" />
+        <span class="logo-text">세무회계컨설팅 봄날</span>
+      </a>
+      <button id="nav-toggle" class="nav-toggle" aria-label="메뉴 열기">
+        <span></span><span></span><span></span>
+      </button>
+      <ul id="nav-menu" class="nav-menu">
+        <li><a href="https://blog.naver.com/cpaqna/223602136086" class="nav-link" target="_blank"
+            rel="noopener">BLOG<svg class="external-icon" viewBox="0 0 12 12" width="12" height="12">
+              <path
+                d="M3.5 3C3.22386 3 3 3.22386 3 3.5C3 3.77614 3.22386 4 3.5 4H7.29289L3.14645 8.14645C2.95118 8.34171 2.95118 8.65829 3.14645 8.85355C3.34171 9.04882 3.65829 9.04882 3.85355 8.85355L8 4.70711V8.5C8 8.77614 8.22386 9 8.5 9C8.77614 9 9 8.77614 9 8.5V3.5C9 3.22386 8.77614 3 8.5 3H3.5Z"
+                fill="currentColor" />
+            </svg></a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Tax Lookup Section (Main) -->
+  <section id="tax-lookup" class="section tax-lookup-section main-hero">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+
+        <h2 class="section-title">업종코드 조회 (+세액공제 3종세트)<span class="dot">.</span></h2>
+      </div>
+      <div class="lookup-box animate-on-scroll">
+        <div class="search-wrapper">
+          <svg class="search-icon" viewBox="0 0 24 24" width="24" height="24">
+            <path
+              d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+              fill="currentColor" />
+          </svg>
+          <input type="text" id="search-input" class="search-input"
+            placeholder="업종코드(예: 722000) 또는 업종명(예: 소프트웨어)을 입력하세요" autocomplete="off" />
+          <button id="search-clear" class="search-clear" style="display:none;">
+            <svg viewBox="0 0 24 24" width="20" height="20">
+              <path
+                d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                fill="currentColor" />
+            </svg>
+          </button>
+        </div>
+        <div id="search-suggestions" class="search-suggestions" style="display:none;"></div>
+      </div>
+      <div id="lookup-disclaimer" class="lookup-disclaimer-inline" style="display:none;">
+        <p>※ 본 조회 결과는 참고용이며, 실제 적용 여부와 조건부 적용에 대해서는 직접 연락주세요.<br />&lt;봄날&gt;
+          <a href="mailto:bomnal0701@gmail.com">bomnal0701@gmail.com</a> / <a href="tel:010-7109-7979">010-7109-7979</a>
+        </p>
+      </div>
+      <div id="lookup-result" class="lookup-result" style="display:none;"></div>
+    </div>
+  </section>
+
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-top">
+          <div class="footer-logo">
+            <img src="/logo-icon.png" alt="봄날" class="footer-logo-img" />
+            <span class="footer-logo-text">세무회계컨설팅 봄날</span>
+          </div>
+          <div class="footer-links">
+            <a href="https://blog.naver.com/cpaqna/223602136086" target="_blank" rel="noopener">BLOG</a>
+          </div>
+        </div>
+        <div class="footer-divider"></div>
+        <div class="footer-info">
+          <p class="footer-info-line">
+            세무회계컨설팅 봄날<span class="footer-sep">|</span>세무 / 회계<span class="footer-sep">|</span>대표자 : 안경은<span
+              class="footer-sep">|</span>사업자등록번호 : 594-21-01979
+          </p>
+          <p class="footer-info-line">
+            서울특별시 광진구 광나루로56길 85, 테크노마트 사무동 23층 17호
+          </p>
+          <p class="footer-info-line">
+            Tel. 010-7109-7979<span class="footer-sep">|</span><a
+              href="mailto:bomnal0701@gmail.com">bomnal0701@gmail.com</a>
+          </p>
+        </div>
+        <p class="footer-copy">© 2025 세무회계컨설팅 봄날. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <!-- Back to top -->
+  <button id="back-to-top" class="back-to-top" aria-label="맨 위로">
+    <svg viewBox="0 0 24 24" width="24" height="24">
+      <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z" fill="currentColor" />
+    </svg>
+  </button>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>

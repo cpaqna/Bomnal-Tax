@@ -1,0 +1,22 @@
+{
+  "name": "bomnal-tax",
+  "version": "1.0.0",
+  "description": "세무회계컨설팅 봄날 웹사이트",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "convert-data": "node _read-excel.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.95",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "vite": "^7.3.1"
+  }
+}
