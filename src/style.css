@@ -1310,36 +1310,35 @@ ol {
   }
 
   .result-tax-row {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .tax-card {
-    border-right: none;
-    border-bottom: 1px solid var(--gray-100);
+    padding: 12px 8px;
   }
 
-  .tax-card:last-child {
-    border-bottom: none;
+  .tax-card-label {
+    font-size: 0.65rem;
+  }
+
+  .tax-card-value {
+    font-size: 1.3rem;
   }
 
   .result-info-grid {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
   }
 
-  .info-cell:nth-child(3n) {
-    border-right: 1px solid var(--gray-100);
+  .info-cell {
+    padding: 10px 8px;
   }
 
-  .info-cell:nth-child(2n) {
-    border-right: none;
+  .info-cell-label {
+    font-size: 0.65rem;
   }
 
-  .info-cell:nth-last-child(-n+3) {
-    border-bottom: 1px solid var(--gray-100);
-  }
-
-  .info-cell:nth-last-child(-n+2) {
-    border-bottom: none;
+  .info-cell-value {
+    font-size: var(--font-size-sm);
   }
 
   .floating-cta {
@@ -1391,18 +1390,5 @@ ol {
 
   .hero-subtitle {
     font-size: var(--font-size-sm);
-  }
-
-  .result-info-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .info-cell {
-    border-right: none !important;
-    border-bottom: 1px solid var(--gray-100) !important;
-  }
-
-  .info-cell:last-child {
-    border-bottom: none !important;
   }
 }
